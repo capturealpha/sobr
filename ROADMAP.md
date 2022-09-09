@@ -10,7 +10,7 @@
 	- Display sobriety date & ticker of time sober in real time
 	- Display tokens earned in real time
 - Require a daily check-in or token stream stops
-- - TF for Optimism RPC node
+- TF for Optimism RPC node
 
 
 ## v0.0.2
