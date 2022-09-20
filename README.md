@@ -1,4 +1,4 @@
-<a href="http://capturealpha.com"><img src="https://capturealpha.com/wp-content/uploads/2022/09/sobr-brandmark.png" title="SOBR" alt="SOBR" width="500"></a>
+<a href="http://capturealpha.com"><img src="https://capturealpha.com/wp-content/uploads/2022/09/sobr-logo-3.png" title="SOBR" alt="SOBR" width="500"></a>
 
 # SOBR
 
