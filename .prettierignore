@@ -17,11 +17,10 @@ yarn-error.log
 # tsc / hardhat / foundry
 artifacts
 cache
-deployments
 out
 data
 build
 dist
-typechain
-coverage
-coverage.json
+
+# github
+.github
