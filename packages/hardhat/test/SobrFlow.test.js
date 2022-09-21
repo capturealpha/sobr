@@ -17,7 +17,7 @@ const tenKEther = ethers.utils.parseEther("10000")
 
 before(async function () {
     //get accounts from hardhat
-    ;[owner, account1, account2] = await ethers.getSigners()
+    [owner, account1, account2] = await ethers.getSigners()
 
     //deploy the framework
     contractsFramework = await deployFramework(owner)
