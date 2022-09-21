@@ -20,8 +20,8 @@ module.exports = {
         hardhat: {
             blockGasLimit: 100000000
         },
-        goerli: {
-            url: process.env.GOERLI_URL || "",
+        mumbai: {
+            url: process.env.MUMBAI_URL || "",
             accounts:
                 process.env.PRIVATE_KEY !== undefined
                     ? [process.env.PRIVATE_KEY]

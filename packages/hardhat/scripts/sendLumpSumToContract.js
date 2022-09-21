@@ -10,7 +10,7 @@ const SobrFlowABI =
 //2) Make sure that you have your network and accounts specified in hardhat.config.js
 //3) Make sure that you add the address of your own SOBR flow contract
 //4) Make sure that you change the 'amount' field in the sendLumpSumToContract function to reflect the proper amount
-//3) run: npx hardhat run scripts/sendLumpSumToContract.js --network goerli
+//3) run: npx hardhat run scripts/sendLumpSumToContract.js --network MUMBAI
 async function main() {
     // Hardhat always runs the compile task when running scripts with its command
     // line interface.
@@ -23,7 +23,7 @@ async function main() {
     const sobrFlowAddress = ""
 
     const provider = new hre.ethers.providers.JsonRpcProvider(
-        process.env.GOERLI_URL
+        process.env.MUMBAI_URL
     )
 
     const sf = await Framework.create({
@@ -47,7 +47,7 @@ async function main() {
         .sendLumpSumToContract(daix.address, ethers.utils.parseEther("500"))
         .then(function (tx) {
             console.log(`
-        Congrats! You just successfully sent funds to the SOBR flow contract. 
+        Congrats! You just successfully sent funds to the SOBR flow contract.
         Tx Hash: ${tx.hash}
     `)
         })

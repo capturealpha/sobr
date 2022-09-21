@@ -10,7 +10,7 @@ const SobrFlowABI =
 //2) Make sure that you have your network and accounts specified in hardhat.config.js
 //3) Make sure that you add the address of your own SOBR flow contract
 //4) Make sure that you change the params in the deleteFlowFromContract function to reflect the proper values
-//3) run: npx hardhat run scripts/deleteFlowFromContract.js --network goerli
+//3) run: npx hardhat run scripts/deleteFlowFromContract.js --network MUMBAI
 async function main() {
     // Hardhat always runs the compile task when running scripts with its command
     // line interface.
@@ -25,7 +25,7 @@ async function main() {
     const receiver = ""
 
     const provider = new hre.ethers.providers.JsonRpcProvider(
-        process.env.GOERLI_URL
+        process.env.MUMBAI_URL
     )
 
     const sf = await Framework.create({
@@ -50,7 +50,7 @@ async function main() {
         .deleteFlowFromContract(daix.address, receiver)
         .then(function (tx) {
             console.log(`
-        Congrats! You just successfully deleted a flow from the SOBR flow contract. 
+        Congrats! You just successfully deleted a flow from the SOBR flow contract.
         Tx Hash: ${tx.hash}
     `)
         })

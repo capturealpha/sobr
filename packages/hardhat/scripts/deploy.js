@@ -2,15 +2,17 @@ const hre = require("hardhat")
 const { Framework } = require("@superfluid-finance/sdk-core")
 require("dotenv").config()
 
+
 const provider = new hre.ethers.providers.JsonRpcProvider(
-    process.env.GOERLI_URL
+    process.env.MUMBAI_URL
 )
 
 async function deploySobrToken() {
     if(process.env.ERC20_TOKEN_ADDRESS) {
-        return rocess.env.ERC20_TOKEN_ADDRESS;
+        return process.env.ERC20_TOKEN_ADDRESS;
     }
-    const sobrToken = await hre.ethers.getContractFactory("SobrToken")
+    const SobrToken = await hre.ethers.getContractFactory("SobrToken");
+    const sobrToken = await SobrToken.deploy();
     await sobrToken.deployed()
     console.log("SOBR ERC-20 token deployed to:", sobrToken.address)
     return sobrToken
@@ -19,7 +21,7 @@ async function deploySobrToken() {
 //to run this script:
 //1) Make sure you've created your own .env file
 //2) Make sure that you have your network specified in hardhat.config.js
-//3) run: npx hardhat run scripts/deploy.js --network goerli
+//3) run: npx hardhat run scripts/deploy.js --network MUMBAI
 async function main() {
     sobrTokenAddress = deploySobrToken()
 
