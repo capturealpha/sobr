@@ -1,13 +1,13 @@
-import { Container, Divider, Link, Text } from "@chakra-ui/react";
-import React from "react";
-
+import { Container, Divider } from "@chakra-ui/react"
+import React from "react"
 function Footer() {
-  return (
-    <>
-      <Divider w={"80%"} mx={"auto"} />
-      <Container py={"2rem"}> </Container>
-    </>
-  );
+    return (
+        <>
+            <Divider w={"80%"} mx={"auto"} />
+            <Container py={"2rem"}>
+            </Container>
+        </>
+    )
 }
 
-export default Footer;
+export default Footer
