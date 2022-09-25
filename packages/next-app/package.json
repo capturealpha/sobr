@@ -20,6 +20,7 @@
     "@tableland/sdk": "^3.1.2",
     "@transak/transak-sdk": "^1.2.2",
     "@uauth/js": "^2.4.0",
+    "@worldcoin/id": "^0.8.0",
     "dotenv": "^16.0.2",
     "ethers": "^5.6.9",
     "framer-motion": "^6",

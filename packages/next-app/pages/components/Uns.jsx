@@ -69,14 +69,8 @@ function ConnectUNS() {
 
   return (
     <Button
-      colorScheme="teal"
-      variant="outline"
-      w="4xs"
-      display="flex"
-      alignItems="center"
-      justifyContent="center"
-      fontSize={{ base: "md", md: "lg" }}
-      cursor="pointer"
+    bgColor="#42CDC9"
+    color="#FFFFFE"
       onClick={handleLogin}
     >
       Login UNS Domains

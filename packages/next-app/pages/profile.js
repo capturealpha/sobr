@@ -10,6 +10,8 @@ import {
     Center
 } from "@chakra-ui/react"
 import { useAccount } from "wagmi"
+import { WorldID } from "./components/WorldID"
+import ConnectUNS from "./components/Uns"
 
 export default function Profile() {
     const { address } = useAccount()
@@ -44,6 +46,8 @@ export default function Profile() {
                         >
                             Set up your Profile:
                         </Heading>
+                        <ConnectUNS />
+                        <Heading mb="10" mt="10">-- OR --</Heading>
                         <form
                             method="post"
                             action="api/profile" /* onSubmit={handleSubmit} */
@@ -81,7 +85,7 @@ export default function Profile() {
                                 type="hidden"
                                 mb="5"
                             />
-                            <Center>
+                            <Center mb="10">
                                 <Button
                                     bgColor="#42CDC9"
                                     color="#FFFFFE"
@@ -92,6 +96,7 @@ export default function Profile() {
                                 </Button>
                             </Center>
                         </form>
+                        <WorldID />
                     </Flex>
                 </Stack>
                 <Footer />
