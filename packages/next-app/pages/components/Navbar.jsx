@@ -3,7 +3,8 @@ import { Flex } from "@chakra-ui/react";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import ConnectUNS from "./Uns";
 import Transak from "./Transak";
-
+import { WorldID } from "./WorldID";
+// import { Signin } from "./WorldID";
 
 function Navbar() {
   return (
@@ -12,6 +13,8 @@ function Navbar() {
         <ConnectButton />
         <ConnectUNS />
         <Transak />
+        <WorldID />
+
       </Flex>
     </>
   );
