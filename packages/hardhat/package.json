@@ -1,5 +1,5 @@
 {
-    "name": "sobr-flow",
+    "name": "@sobr/hardhat",
     "scripts": {
         "test": "hardhat test",
         "build": "hardhat compile"
