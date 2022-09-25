@@ -5,9 +5,9 @@ import { RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { WagmiConfig } from "wagmi";
 import { wagmiClient, chains } from "../helpers/rainbowSetup";
 
-function MyApp({ Component, pageProps }) {
+function Sobr({ Component, pageProps }) {
   const appInfo = {
-    appName: "🦄Web3 Starter Kit",
+    appName: "SOBR",
   };
 
   return (
@@ -26,4 +26,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default Sobr;
