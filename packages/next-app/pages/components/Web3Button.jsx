@@ -42,7 +42,7 @@ function Web3Button() {
                                         onClick={openConnectModal}
                                         type="button"
                                     >
-                                        Connect Your Wallet
+                                        RainbowKit
                                     </Button>
                                 )
                             }

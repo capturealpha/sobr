@@ -1,9 +1,11 @@
 import Header from "./Header"
 import Footer from "./components/Footer"
 import { Container, Flex, Image } from "@chakra-ui/react"
-import Web3Button from "./components/Web3Button"
+// import Web3Button from "./components/Web3Button"
 import { useAccount } from "wagmi"
 import { useRouter } from "next/router"
+import ConnectUNS from "./components/Uns"
+import Web3Button from "./components/Web3Button"
 
 export default function SignIn() {
     const { address, isConnected } = useAccount()
@@ -26,6 +28,8 @@ export default function SignIn() {
                     borderRadius="lg"
                     overflow="hidden"
                 >
+
+                    <Web3Button />
                     <Image
                         objectFit="cover"
                         src="https://user-images.githubusercontent.com/47368672/191559625-260857f2-22ad-49d5-9f36-54c7d32d9030.png"
@@ -33,7 +37,7 @@ export default function SignIn() {
                         maxH={300}
                         padding="10"
                     />
-                    <Web3Button />
+                    <ConnectUNS />
                 </Flex>
                 <Footer />
             </Container>

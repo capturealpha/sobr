@@ -1,6 +1,6 @@
 import Header from "./Header"
 import Footer from "./components/Footer"
-import Web3Button from "./components/Web3Button"
+// import Web3Button from "./components/Web3Button"
 import Transak from "./components/Transak"
 
 import {
@@ -17,6 +17,9 @@ import {
     StatArrow
 } from "@chakra-ui/react"
 import { useAccount } from "wagmi"
+import ConnectUNS from "./components/Uns"
+import Web3Button from "./components/Web3Button"
+
 
 export default function Dashboard() {
     const { address } = useAccount()
@@ -51,11 +54,10 @@ export default function Dashboard() {
                         </Button>
                     </Stack>
 
-                    <Web3Button />
                     <Heading
                         fontWeight={"800"}
-                        mb="20"
-                        mt="2"
+                        mb="10"
+                        mt="10"
                         color="#333"
                         fontSize={[
                             "1.3rem",
@@ -65,8 +67,11 @@ export default function Dashboard() {
                             "1.2rem"
                         ]}
                     >
-                        Hi {address}!
+                        WAGMI
                     </Heading>
+                        <Web3Button />
+                        <br></br>
+                        <ConnectUNS />
 
                     <Flex
                         flexDirection={"column"}

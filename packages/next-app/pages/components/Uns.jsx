@@ -1,12 +1,19 @@
 import UAuth from "@uauth/js";
 import React, { useEffect, useState } from "react";
 import { Avatar, Button } from "@chakra-ui/react";
+import { useRouter } from "next/router";
 
-const uauth = new UAuth({
+export const injected = {};
+
+export const walletconnect = { provider: "walletconnect" }
+
+export const uauth = new UAuth({
   clientID: "ddb368fc-a890-41d2-99cf-75f64cf23f9d",
   redirectUri: "http://localhost:3000",
-  scope: "openid wallet"
+  scope: "openid wallet email:optional humanity_check:optional",
+  connectors: {injected, walletconnect }
 });
+
 
 function ConnectUNS() {
   const [loading, setLoading] = useState(false);
@@ -41,8 +48,6 @@ function ConnectUNS() {
       .finally(() => setLoading(false));
   };
 
-  console.log(loading);
-
   if (user) {
     return (
       <Button
@@ -63,17 +68,26 @@ function ConnectUNS() {
           mr={2}
         />
         {user.sub}
+        <br>
+        </br>
+        {user.wallet_address}
       </Button>
     );
   }
 
   return (
     <Button
-    bgColor="#42CDC9"
-    color="#FFFFFE"
+      colorScheme="teal"
+      variant="outline"
+      w="4xs"
+      display="flex"
+      alignItems="center"
+      justifyContent="center"
+      fontSize={{ base: "md", md: "lg" }}
+      cursor="pointer"
       onClick={handleLogin}
     >
-      Login UNS Domains
+      Unstoppable Domains
     </Button>
   );
 }
