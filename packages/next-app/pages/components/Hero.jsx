@@ -25,7 +25,7 @@ function Hero() {
               className={"h-shadow-blue"}
               color={"#0070f3"}
               isExternal
-              href="https://github.com/lakshh07/Web3-Starter-Kit"
+              href="https://github.com/Hebx"
             >
               <Heading
                 fontWeight={"700"}

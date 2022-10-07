@@ -11,10 +11,13 @@ import {
 } from "@chakra-ui/react"
 import { useAccount } from "wagmi"
 import { WorldID } from "./components/WorldID"
+import Web3Button from "./components/Web3Button"
 import ConnectUNS from "./components/Uns"
+import { useRouter } from "next/router"
 
 export default function Profile() {
     const { address } = useAccount()
+    const router = useRouter()
 
     return (
         <>
@@ -47,10 +50,11 @@ export default function Profile() {
                             Set up your Profile:
                         </Heading>
                         <ConnectUNS />
-                        <Heading mb="10" mt="10">-- OR --</Heading>
+                        <Heading mb="5" mt="5">-- OR --</Heading>
+                          <Web3Button />
                         <form
                             method="post"
-                            action="api/profile" /* onSubmit={handleSubmit} */
+                            action="api/profile"
                         >
                             <Input
                                 mx={"auto"}
@@ -79,7 +83,7 @@ export default function Profile() {
                             <Input
                                 mx={"auto"}
                                 variant={"outline"}
-                                value={address}
+                                value= {address}
                                 textAlign={"left"}
                                 name="address"
                                 type="hidden"
@@ -91,6 +95,7 @@ export default function Profile() {
                                     color="#FFFFFE"
                                     width="400px"
                                     type="submit"
+                                    onClick={() => router.push("/dashboard")}
                                 >
                                     Set Up Now
                                 </Button>
