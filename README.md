@@ -6,6 +6,8 @@
 > Built for ETHOnline 2022<br><br>
 > Primary goal for this Hackathon is to use SuperFluid, Polygon, Worldcoin, EPNS, Tableland, and ENS to build a dAPP that allows users to track their sobriety journey, earning rewards and NFTs as they progress.
 
+https://sobr.vercel.app/
+
 ---
 
 ## Team
