@@ -26,4 +26,4 @@ Reach out to us!
 
 ---
 
-- Copyright 2022 © <a href="http://capturealpha.com" target="_blank">Capture Alpha</a>.
+- Copyright 2025 © <a href="http://capturealpha.com" target="_blank">Capture Alpha</a>.
