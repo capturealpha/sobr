@@ -1,1 +1,138 @@
-TBD
+![Nathan Bolam](https://avatars.githubusercontent.com/u/13661669?v=4 "Nathan Bolam")  
+Nathan Bolam  
+AI/ML Engineer  
+Location: New York, NY, Ft. Lauderdale, FL  
+Email: <nbolam@icloud.com>
+
+---
+
+## SUMMARY  
+Experienced AI/ML Engineer with over 20 years of expertise in AI/ML engineering, software development, and platform engineering. I specialize in designing and deploying scalable machine learning models and workflows, leveraging cutting-edge technologies to solve complex business challenges. Passionate about continuously learning and staying ahead of industry trends, I excel in developing AI-driven solutions, deploying machine learning models, and integrating advanced AI techniques such as Generative AI into production systems. My skills span across Python, data science tools, cloud platforms, and DevOps practices, ensuring the creation of robust and efficient data systems for diverse clients.
+
+---
+
+## SKILLS
+
+### AI/ML Engineering & Data Science
+- Strong proficiency in Python, R, JavaScript, Java, C++, and SQL
+- Expertise in Generative AI models (OpenAI family, Dall-e, Langchain, Retrieval Augmented Generation)
+- Experience with machine learning frameworks: Pytorch, scikit-learn, ONNX, MLFlow
+- MLOps methods and platforms, including CI/CD, test-driven development, and deployment automation
+- Data science workflows: data ingestion, transformation, analysis, and evaluation
+- Familiarity with cloud platforms (AWS, Azure), containerization, and scaling models with Kubernetes/Docker
+- Advanced knowledge in statistics, linear algebra, calculus, and machine learning algorithms
+- Experience designing and deploying end-to-end machine learning workflows and pipelines
+
+### Data Manipulation & Integration
+- Expertise in using Pandas, Spark, and SQL for data processing and manipulation
+- Experience building scalable data models and frameworks to enrich and derive insights from diverse data sources
+- Skilled in designing and building APIs for data-driven applications
+- Experience integrating machine learning models into reporting systems and AI-driven applications
+
+### Development & DevOps
+- Strong experience using Git, Azure DevOps, Jira, and Agile methodologies for project management
+- Proficient with containerization technologies (Docker, Kubernetes) and scaling ML models
+- Familiarity with DevOps practices and building automated testing and deployment pipelines
+- Experience with CI/CD pipelines for data science and machine learning solutions
+
+### Leadership & Collaboration
+- Proven track record of mentoring and guiding technical teams in AI/ML solutions
+- Strong collaboration skills in cross-functional teams to drive successful project delivery
+- Ability to clearly communicate findings, recommendations, and opportunities for system improvements
+
+---
+
+## EXPERIENCE
+
+**Chief Architect - Alpha Virtual, Orlando, FL (Remote)**  
+*February 2019 - PRESENT*  
+- Led the design and implementation of AI/ML-driven solutions for decentralized platforms, including a GPU rental platform leveraging machine learning for pricing and resource allocation.  
+- Developed and deployed AI models for intelligent decision-making, including automated anomaly detection and predictive analytics in real-time systems.  
+- Built and deployed **Generative AI** solutions to enhance user interactions, such as using GPT models for automated customer support and content generation.  
+- Designed end-to-end machine learning workflows and pipelines, utilizing cloud platforms and MLOps tools such as MLFlow for model tracking, versioning, and deployment.  
+- Collaborated with clients to identify business needs and deliver tailored AI-driven solutions, driving innovation and operational efficiencies.
+
+---
+
+**Lead Developer - Sequoya Holdings, Sarasota, FL (Remote)**  
+*Feb 2017 - Feb 2019*  
+- Led predictive analysis projects for goods pricing, primarily in retail stores and supermarkets, using machine learning models to forecast product pricing based on historical sales data and market trends.  
+- Developed and deployed data pipelines for processing and analyzing large datasets, enabling real-time pricing adjustments and competitive analysis.  
+- Built machine learning models to optimize pricing strategies, increasing pricing accuracy and improving profitability for retail clients.  
+- Utilized machine learning libraries such as scikit-learn to develop regression models for price prediction and demand forecasting.  
+- Led cross-functional teams in integrating machine learning models with client systems, ensuring smooth deployment and operational efficiency.
+
+---
+
+**Tech Lead/AI/ML Engineer - Frontline Technologies, Malvern, PA (Remote)**  
+*February 2010 - February 2017*  
+- Focused on Python development and DevOps practices to improve system reliability and efficiency.  
+- Built and maintained **Python-based backend systems** for internal tools and applications, ensuring high scalability and performance.  
+- Led the implementation of **DevOps pipelines** using Jenkins and Azure DevOps, automating testing and deployment processes.  
+- Worked closely with cross-functional teams to design and develop APIs, streamlining workflows and integrating systems.  
+- Collaborated on integrating third-party tools and services to improve internal application functionality, focusing on security and scalability.
+
+---
+
+**Lead Developer - Cymtec Systems, Saint Louis, MO**  
+*Feb 2005 - Feb 2010*  
+- Developed backend systems for Cymtec Sentry, a network intrusion prevention solution, using C# and .NET Framework.
+- Designed and implemented RESTful APIs to support real-time network monitoring and analytics.
+- Refactored legacy codebases to improve maintainability and scalability, introducing modular design principles.
+- Built a secure data storage solution using SQL Server, ensuring high availability and data integrity.
+- Enhanced system performance by optimizing data retrieval algorithms and reducing processing time by 25%.
+- Developed a web-based management console using ASP.NET MVC for network configuration and monitoring.
+- Integrated event logging and alerting features with third-party tools, improving incident response times.
+- Conducted unit testing with MSTest, ensuring code reliability and reducing bugs in production.
+- Worked closely with QA teams to streamline the testing process and improve application quality.
+- Collaborated with network engineers to ensure seamless integration of backend services with hardware appliances.
+
+---
+
+**Developer/Support Technician - Correctional Medical Services, Saint Louis, MO**  
+*August 2004 - May 2005*  
+- Supported the development and maintenance of internal applications, focusing on performance optimization and user experience.  
+- Implemented testing protocols to ensure the reliability of ETL processes and internal applications. 
+- Collaborated with teams to identify bottlenecks and optimize system performance.  
+- Provided troubleshooting and support for internal applications, ensuring minimal downtime.  
+- Supported the development of tools for monitoring and managing critical data in the medical services systems.  
+
+---
+
+## PROJECTS
+
+- Launch.box: Developed a decentralized GPU rental platform using Node.js and React, integrating machine learning models to optimize resource allocation and pricing based on user demand.  
+- CryptoTrack: Built a real-time cryptocurrency tracking and trading platform using scikit-learn and Pandas to predict price movements based on historical data and sentiment analysis.  
+- DecentraLearn: Created a decentralized learning platform with React and TypeScript, implementing AI-driven recommendation systems to suggest personalized learning paths for users.  
+- EduStream: Designed and deployed an end-to-end machine learning pipeline for aggregating educational data, using Spark and Pandas to analyze and report insights across diverse data sources.  
+- AI-driven Applications: Developed Generative AI models for content creation, including automated text generation and personalized user interactions, enhancing user engagement on decentralized platforms.
+
+---
+
+## EDUCATION
+
+- Ranken Technical College, Saint Louis, MO (2003 - 2005)  
+- Southern Illinois University, Edwardsville, IL (1999 - 2001)
+
+---
+
+## CERTIFICATIONS
+
+- Getting Started with Python - University of Michigan - Sep 2024
+- Python Data Structures - University of Michigan - Sep 2024
+- Introduction to FastAPI framework - Duke University - Sep 2024
+- Using Python to Access Web Data - University of Michigan - Oct 2024
+- Python Data Structures - University of Michigan - Sep 2024
+- Advanced Learning Algorithms - Coursera - Dec 2023
+- Supervised Machine Learning: Regression and Classification - Coursera - Oct 2023
+- Cisco Certified Network Associate  
+- Microsoft Certified Professional  
+- CompTIA Network+ Certified  
+- CompTIA A+ Certified
+
+---
+
+## OTHER
+
+Patent: Controlling and Monitoring Propagation Within a Network  
+[Patent Link](https://patents.justia.com/inventor/nate-c-bolam)
