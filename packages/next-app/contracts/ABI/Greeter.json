@@ -11,6 +11,17 @@
     "type": "constructor"
   },
   {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_message",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
     "inputs": [],
     "name": "greet",
     "outputs": [
@@ -32,6 +43,19 @@
       }
     ],
     "name": "setGreeting",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_message",
+        "type": "string"
+      }
+    ],
+    "name": "setMessage",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
