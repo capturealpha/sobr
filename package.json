@@ -23,6 +23,7 @@
         "packages/*"
     ],
     "dependencies": {
-        "@chakra-ui/react": "^3.8.1"
+        "@chakra-ui/react": "^3.8.1",
+        "@nomicfoundation/hardhat-chai-matchers": "^2.0.8"
     }
 }
